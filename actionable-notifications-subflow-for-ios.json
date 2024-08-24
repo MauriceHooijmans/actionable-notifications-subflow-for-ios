@@ -10,8 +10,12 @@
                 "x": 100,
                 "y": 80,
                 "wires": [
-                    {"id": "6b940f2bfba5188c"},
-                    {"id": "a380385926a54b87"}
+                    {
+                        "id": "6b940f2bfba5188c"
+                    },
+                    {
+                        "id": "a380385926a54b87"
+                    }
                 ]
             }
         ],
@@ -63,7 +67,9 @@
                 "type": "str",
                 "value": "None",
                 "ui": {
-                    "label": {"en-US": "Group Name"}
+                    "label": {
+                        "en-US": "Group Name"
+                    }
                 }
             },
             {
@@ -71,7 +77,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Tag (for replacing messages - optional)"}
+                    "label": {
+                        "en-US": "Tag (for replacing messages - optional)"
+                    }
                 }
             },
             {
@@ -79,7 +87,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Notify Service"},
+                    "label": {
+                        "en-US": "Notify Service"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -94,7 +104,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Title"},
+                    "label": {
+                        "en-US": "Title"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -109,7 +121,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Subtitle (optional)"},
+                    "label": {
+                        "en-US": "Subtitle (optional)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -124,7 +138,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Message"},
+                    "label": {
+                        "en-US": "Message"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -139,7 +155,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Notification URL (optional)"},
+                    "label": {
+                        "en-US": "Notification URL (optional)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -154,524 +172,784 @@
                 "type": "str",
                 "value": "default",
                 "ui": {
-                    "label": {"en-US": "Pre-installed Custom Sound"},
+                    "label": {
+                        "en-US": "Pre-installed Custom Sound"
+                    },
                     "type": "select",
                     "opts": {
                         "opts": [
                             {
-                                "l": {"en-US": "default"},
+                                "l": {
+                                    "en-US": "default"
+                                },
                                 "v": "default"
                             },
                             {
-                                "l": {"en-US": "No Sound"},
+                                "l": {
+                                    "en-US": "No Sound"
+                                },
                                 "v": "none"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Back-Door-Opened.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Back-Door-Opened.wav"
+                                },
                                 "v": "US-EN-Alexa-Back-Door-Opened.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Back-Door-Unlocked.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Back-Door-Unlocked.wav"
+                                },
                                 "v": "US-EN-Alexa-Back-Door-Unlocked.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Basement-Door-Opened.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Basement-Door-Opened.wav"
+                                },
                                 "v": "US-EN-Alexa-Basement-Door-Opened.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Basement-Door-Unlocked.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Basement-Door-Unlocked.wav"
+                                },
                                 "v": "US-EN-Alexa-Basement-Door-Unlocked.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Boyfriend-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Boyfriend-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Alexa-Boyfriend-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Daughter-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Daughter-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Alexa-Daughter-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Front-Door-Opened.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Front-Door-Opened.wav"
+                                },
                                 "v": "US-EN-Alexa-Front-Door-Opened.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Front-Door-Unlocked.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Front-Door-Unlocked.wav"
+                                },
                                 "v": "US-EN-Alexa-Front-Door-Unlocked.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Garage-Door-Opened.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Garage-Door-Opened.wav"
+                                },
                                 "v": "US-EN-Alexa-Garage-Door-Opened.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Girlfriend-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Girlfriend-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Alexa-Girlfriend-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Good-Morning.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Good-Morning.wav"
+                                },
                                 "v": "US-EN-Alexa-Good-Morning.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Good-Night.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Good-Night.wav"
+                                },
                                 "v": "US-EN-Alexa-Good-Night.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Husband-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Husband-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Alexa-Husband-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Mail-Has-Arrived.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Mail-Has-Arrived.wav"
+                                },
                                 "v": "US-EN-Alexa-Mail-Has-Arrived.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Motion-At-Back-Door.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Motion-At-Back-Door.wav"
+                                },
                                 "v": "US-EN-Alexa-Motion-At-Back-Door.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Motion-At-Front-Door.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Motion-At-Front-Door.wav"
+                                },
                                 "v": "US-EN-Alexa-Motion-At-Front-Door.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Motion-Detected-Generic.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Motion-Detected-Generic.wav"
+                                },
                                 "v": "US-EN-Alexa-Motion-Detected-Generic.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Motion-In-Back-Yard.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Motion-In-Back-Yard.wav"
+                                },
                                 "v": "US-EN-Alexa-Motion-In-Back-Yard.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Motion-In-Basement.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Motion-In-Basement.wav"
+                                },
                                 "v": "US-EN-Alexa-Motion-In-Basement.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Motion-In-Front-Yard.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Motion-In-Front-Yard.wav"
+                                },
                                 "v": "US-EN-Alexa-Motion-In-Front-Yard.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Motion-In-Garage.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Motion-In-Garage.wav"
+                                },
                                 "v": "US-EN-Alexa-Motion-In-Garage.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Patio-Door-Opened.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Patio-Door-Opened.wav"
+                                },
                                 "v": "US-EN-Alexa-Patio-Door-Opened.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Patio-Door-Unlocked.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Patio-Door-Unlocked.wav"
+                                },
                                 "v": "US-EN-Alexa-Patio-Door-Unlocked.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Smoke-Detected-Generic.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Smoke-Detected-Generic.wav"
+                                },
                                 "v": "US-EN-Alexa-Smoke-Detected-Generic.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Smoke-Detected-In-Basement.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Smoke-Detected-In-Basement.wav"
+                                },
                                 "v": "US-EN-Alexa-Smoke-Detected-In-Basement.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Smoke-Detected-In-Garage.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Smoke-Detected-In-Garage.wav"
+                                },
                                 "v": "US-EN-Alexa-Smoke-Detected-In-Garage.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Smoke-Detected-In-Kitchen.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Smoke-Detected-In-Kitchen.wav"
+                                },
                                 "v": "US-EN-Alexa-Smoke-Detected-In-Kitchen.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Son-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Son-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Alexa-Son-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Water-Detected-Generic.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Water-Detected-Generic.wav"
+                                },
                                 "v": "US-EN-Alexa-Water-Detected-Generic.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Water-Detected-In-Basement.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Water-Detected-In-Basement.wav"
+                                },
                                 "v": "US-EN-Alexa-Water-Detected-In-Basement.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Water-Detected-In-Garage.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Water-Detected-In-Garage.wav"
+                                },
                                 "v": "US-EN-Alexa-Water-Detected-In-Garage.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Water-Detected-In-Kitchen.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Water-Detected-In-Kitchen.wav"
+                                },
                                 "v": "US-EN-Alexa-Water-Detected-In-Kitchen.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Welcome-Home.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Welcome-Home.wav"
+                                },
                                 "v": "US-EN-Alexa-Welcome-Home.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Alexa-Wife-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Alexa-Wife-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Alexa-Wife-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Back-Door-Motion.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Back-Door-Motion.wav"
+                                },
                                 "v": "US-EN-Daisy-Back-Door-Motion.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Back-Door-Open.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Back-Door-Open.wav"
+                                },
                                 "v": "US-EN-Daisy-Back-Door-Open.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Front-Door-Motion.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Front-Door-Motion.wav"
+                                },
                                 "v": "US-EN-Daisy-Front-Door-Motion.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Front-Door-Open.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Front-Door-Open.wav"
+                                },
                                 "v": "US-EN-Daisy-Front-Door-Open.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Front-Window-Open.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Front-Window-Open.wav"
+                                },
                                 "v": "US-EN-Daisy-Front-Window-Open.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Garage-Door-Open.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Garage-Door-Open.wav"
+                                },
                                 "v": "US-EN-Daisy-Garage-Door-Open.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Guest-Bath-Leak.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Guest-Bath-Leak.wav"
+                                },
                                 "v": "US-EN-Daisy-Guest-Bath-Leak.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Kitchen-Sink-Leak.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Kitchen-Sink-Leak.wav"
+                                },
                                 "v": "US-EN-Daisy-Kitchen-Sink-Leak.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Kitchen-Window-Open.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Kitchen-Window-Open.wav"
+                                },
                                 "v": "US-EN-Daisy-Kitchen-Window-Open.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Laundry-Room-Leak.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Laundry-Room-Leak.wav"
+                                },
                                 "v": "US-EN-Daisy-Laundry-Room-Leak.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Master-Bath-Leak.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Master-Bath-Leak.wav"
+                                },
                                 "v": "US-EN-Daisy-Master-Bath-Leak.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Master-Bedroom-Window-Open.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Master-Bedroom-Window-Open.wav"
+                                },
                                 "v": "US-EN-Daisy-Master-Bedroom-Window-Open.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Office-Window-Open.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Office-Window-Open.wav"
+                                },
                                 "v": "US-EN-Daisy-Office-Window-Open.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Refrigerator-Leak.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Refrigerator-Leak.wav"
+                                },
                                 "v": "US-EN-Daisy-Refrigerator-Leak.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Daisy-Water-Heater-Leak.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Daisy-Water-Heater-Leak.wav"
+                                },
                                 "v": "US-EN-Daisy-Water-Heater-Leak.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Back-Door-Closed.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Back-Door-Closed.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Back-Door-Closed.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Back-Door-Locked.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Back-Door-Locked.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Back-Door-Locked.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Back-Door-Opened.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Back-Door-Opened.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Back-Door-Opened.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Back-Door-Unlocked.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Back-Door-Unlocked.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Back-Door-Unlocked.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Basement-Door-Closed.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Basement-Door-Closed.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Basement-Door-Closed.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Basement-Door-Locked.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Basement-Door-Locked.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Basement-Door-Locked.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Basement-Door-Opened.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Basement-Door-Opened.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Basement-Door-Opened.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Basement-Door-Unlocked.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Basement-Door-Unlocked.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Basement-Door-Unlocked.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Boss-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Boss-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Boss-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Boyfriend-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Boyfriend-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Boyfriend-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Cleaning-Supplies-Closet-Opened.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Cleaning-Supplies-Closet-Opened.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Cleaning-Supplies-Closet-Opened.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Coworker-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Coworker-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Coworker-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Daughter-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Daughter-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Daughter-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Friend-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Friend-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Friend-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Front-Door-Closed.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Front-Door-Closed.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Front-Door-Closed.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Front-Door-Locked.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Front-Door-Locked.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Front-Door-Locked.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Front-Door-Opened.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Front-Door-Opened.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Front-Door-Opened.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Front-Door-Unlocked.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Front-Door-Unlocked.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Front-Door-Unlocked.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Garage-Door-Closed.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Garage-Door-Closed.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Garage-Door-Closed.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Garage-Door-Opened.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Garage-Door-Opened.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Garage-Door-Opened.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Girlfriend-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Girlfriend-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Girlfriend-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Good-Morning.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Good-Morning.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Good-Morning.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Good-Night.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Good-Night.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Good-Night.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Liquor-Cabinet-Opened.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Liquor-Cabinet-Opened.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Liquor-Cabinet-Opened.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Motion-Detected.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Motion-Detected.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Motion-Detected.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Motion-In-Basement.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Motion-In-Basement.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Motion-In-Basement.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Motion-In-Bedroom.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Motion-In-Bedroom.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Motion-In-Bedroom.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Motion-In-Game-Room.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Motion-In-Game-Room.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Motion-In-Game-Room.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Motion-In-Garage.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Motion-In-Garage.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Motion-In-Garage.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Motion-In-Kitchen.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Motion-In-Kitchen.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Motion-In-Kitchen.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Motion-In-Living-Room.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Motion-In-Living-Room.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Motion-In-Living-Room.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Motion-In-Theater.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Motion-In-Theater.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Motion-In-Theater.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Motion-In-Wine-Cellar.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Motion-In-Wine-Cellar.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Motion-In-Wine-Cellar.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Patio-Door-Closed.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Patio-Door-Closed.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Patio-Door-Closed.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Patio-Door-Locked.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Patio-Door-Locked.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Patio-Door-Locked.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Patio-Door-Opened.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Patio-Door-Opened.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Patio-Door-Opened.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Patio-Door-Unlocked.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Patio-Door-Unlocked.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Patio-Door-Unlocked.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Roommate-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Roommate-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Roommate-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Searching-For-Car-Keys.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Searching-For-Car-Keys.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Searching-For-Car-Keys.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Setting-The-Mood.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Setting-The-Mood.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Setting-The-Mood.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Smartthings-Detected-A-Flood.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Smartthings-Detected-A-Flood.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Smartthings-Detected-A-Flood.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Smartthings-Detected-Carbon-Monoxide.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Smartthings-Detected-Carbon-Monoxide.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Smartthings-Detected-Carbon-Monoxide.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Smartthings-Detected-Smoke.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Smartthings-Detected-Smoke.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Smartthings-Detected-Smoke.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Smoke-Detected-In-Basement.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Smoke-Detected-In-Basement.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Smoke-Detected-In-Basement.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Smoke-Detected-In-Garage.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Smoke-Detected-In-Garage.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Smoke-Detected-In-Garage.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Smoke-Detected-In-Kitchen.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Smoke-Detected-In-Kitchen.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Smoke-Detected-In-Kitchen.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Someone-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Someone-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Someone-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Son-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Son-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Son-Is-Arriving.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Starting-Movie-Mode.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Starting-Movie-Mode.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Starting-Movie-Mode.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Starting-Party-Mode.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Starting-Party-Mode.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Starting-Party-Mode.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Starting-Romance-Mode.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Starting-Romance-Mode.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Starting-Romance-Mode.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-Off-All-The-Lights.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-Off-All-The-Lights.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-Off-All-The-Lights.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Air-Conditioner.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Air-Conditioner.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-Off-The-Air-Conditioner.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Bar-Lights.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Bar-Lights.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-Off-The-Bar-Lights.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Chandelier.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Chandelier.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-Off-The-Chandelier.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Family-Room-Lights.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Family-Room-Lights.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-Off-The-Family-Room-Lights.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Hallway-Lights.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Hallway-Lights.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-Off-The-Hallway-Lights.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Kitchen-Light.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Kitchen-Light.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-Off-The-Kitchen-Light.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Light.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Light.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-Off-The-Light.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Lights.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Lights.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-Off-The-Lights.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Mood-Lights.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-Off-The-Mood-Lights.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-Off-The-Mood-Lights.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-Off-The-TV.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-Off-The-TV.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-Off-The-TV.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-On-The-Air-Conditioner.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-On-The-Air-Conditioner.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-On-The-Air-Conditioner.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-On-The-Bar-Lights.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-On-The-Bar-Lights.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-On-The-Bar-Lights.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-On-The-Chandelier.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-On-The-Chandelier.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-On-The-Chandelier.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-On-The-Family-Room-Lights.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-On-The-Family-Room-Lights.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-On-The-Family-Room-Lights.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-On-The-Hallway-Lights.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-On-The-Hallway-Lights.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-On-The-Hallway-Lights.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-On-The-Kitchen-Light.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-On-The-Kitchen-Light.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-On-The-Kitchen-Light.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-On-The-Light.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-On-The-Light.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-On-The-Light.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-On-The-Lights.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-On-The-Lights.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-On-The-Lights.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-On-The-Mood-Lights.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-On-The-Mood-Lights.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-On-The-Mood-Lights.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Turning-On-The-TV.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Turning-On-The-TV.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Turning-On-The-TV.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Vacate-The-Premises.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Vacate-The-Premises.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Vacate-The-Premises.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Water-Detected-In-Basement.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Water-Detected-In-Basement.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Water-Detected-In-Basement.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Water-Detected-In-Garage.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Water-Detected-In-Garage.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Water-Detected-In-Garage.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Water-Detected-In-Kitchen.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Water-Detected-In-Kitchen.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Water-Detected-In-Kitchen.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Welcome-Home.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Welcome-Home.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Welcome-Home.wav"
                             },
                             {
-                                "l": {"en-US": "US-EN-Morgan-Freeman-Wife-Is-Arriving.wav"},
+                                "l": {
+                                    "en-US": "US-EN-Morgan-Freeman-Wife-Is-Arriving.wav"
+                                },
                                 "v": "US-EN-Morgan-Freeman-Wife-Is-Arriving.wav"
                             }
                         ]
@@ -683,7 +961,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Custom Sound (Optional - will override pre-installed selection)"},
+                    "label": {
+                        "en-US": "Custom Sound (Optional - will override pre-installed selection)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -698,10 +978,14 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Critical Notification?"},
+                    "label": {
+                        "en-US": "Critical Notification?"
+                    },
                     "type": "input",
                     "opts": {
-                        "types": ["bool"]
+                        "types": [
+                            "bool"
+                        ]
                     }
                 }
             },
@@ -710,24 +994,34 @@
                 "type": "str",
                 "value": "active",
                 "ui": {
-                    "label": {"en-US": "Interruption Level"},
+                    "label": {
+                        "en-US": "Interruption Level"
+                    },
                     "type": "select",
                     "opts": {
                         "opts": [
                             {
-                                "l": {"en-US": "Passive (iOS 15+)"},
+                                "l": {
+                                    "en-US": "Passive (iOS 15+)"
+                                },
                                 "v": "passive"
                             },
                             {
-                                "l": {"en-US": "Active (Default)"},
+                                "l": {
+                                    "en-US": "Active (Default)"
+                                },
                                 "v": "active"
                             },
                             {
-                                "l": {"en-US": "Time Sensitive (iOS 15+)"},
+                                "l": {
+                                    "en-US": "Time Sensitive (iOS 15+)"
+                                },
                                 "v": "time-sensitive"
                             },
                             {
-                                "l": {"en-US": "Critical"},
+                                "l": {
+                                    "en-US": "Critical"
+                                },
                                 "v": "critical"
                             }
                         ]
@@ -739,7 +1033,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Populate User Information"},
+                    "label": {
+                        "en-US": "Populate User Information"
+                    },
                     "type": "checkbox"
                 }
             },
@@ -748,7 +1044,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Clear notifications on Action Received?"},
+                    "label": {
+                        "en-US": "Clear notifications on Action Received?"
+                    },
                     "type": "checkbox"
                 }
             },
@@ -757,10 +1055,14 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 1 Title"},
+                    "label": {
+                        "en-US": "Action 1 Title"
+                    },
                     "type": "input",
                     "opts": {
-                        "types": ["str"]
+                        "types": [
+                            "str"
+                        ]
                     }
                 }
             },
@@ -769,10 +1071,14 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 1 URL (optional)"},
+                    "label": {
+                        "en-US": "Action 1 URL (optional)"
+                    },
                     "type": "input",
                     "opts": {
-                        "types": ["str"]
+                        "types": [
+                            "str"
+                        ]
                     }
                 }
             },
@@ -781,16 +1087,22 @@
                 "type": "str",
                 "value": "background",
                 "ui": {
-                    "label": {"en-US": "Action 1 Activation Mode"},
+                    "label": {
+                        "en-US": "Action 1 Activation Mode"
+                    },
                     "type": "select",
                     "opts": {
                         "opts": [
                             {
-                                "l": {"en-US": "Background"},
+                                "l": {
+                                    "en-US": "Background"
+                                },
                                 "v": "background"
                             },
                             {
-                                "l": {"en-US": "Foreground"},
+                                "l": {
+                                    "en-US": "Foreground"
+                                },
                                 "v": "foreground"
                             }
                         ]
@@ -802,7 +1114,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Action 1 App Authentication Required?"},
+                    "label": {
+                        "en-US": "Action 1 App Authentication Required?"
+                    },
                     "type": "checkbox"
                 }
             },
@@ -811,7 +1125,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Action 1 Destructive?"},
+                    "label": {
+                        "en-US": "Action 1 Destructive?"
+                    },
                     "type": "checkbox"
                 }
             },
@@ -820,16 +1136,22 @@
                 "type": "str",
                 "value": "default",
                 "ui": {
-                    "label": {"en-US": "Action 1 Behavior"},
+                    "label": {
+                        "en-US": "Action 1 Behavior"
+                    },
                     "type": "select",
                     "opts": {
                         "opts": [
                             {
-                                "l": {"en-US": "Default"},
+                                "l": {
+                                    "en-US": "Default"
+                                },
                                 "v": "default"
                             },
                             {
-                                "l": {"en-US": "Text Input"},
+                                "l": {
+                                    "en-US": "Text Input"
+                                },
                                 "v": "textInput"
                             }
                         ]
@@ -841,7 +1163,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 1 Text Input Button Title (Required if behavior is Text Input)"},
+                    "label": {
+                        "en-US": "Action 1 Text Input Button Title (Required if behavior is Text Input)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -856,7 +1180,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 1 Text Input Placeholder (Optional - only if behavior is Text Input)"},
+                    "label": {
+                        "en-US": "Action 1 Text Input Placeholder (Optional - only if behavior is Text Input)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -871,7 +1197,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 1 Icon (Optional)"},
+                    "label": {
+                        "en-US": "Action 1 Icon (Optional)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -886,10 +1214,14 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 2 Title"},
+                    "label": {
+                        "en-US": "Action 2 Title"
+                    },
                     "type": "input",
                     "opts": {
-                        "types": ["str"]
+                        "types": [
+                            "str"
+                        ]
                     }
                 }
             },
@@ -898,10 +1230,14 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 2 URL (optional)"},
+                    "label": {
+                        "en-US": "Action 2 URL (optional)"
+                    },
                     "type": "input",
                     "opts": {
-                        "types": ["str"]
+                        "types": [
+                            "str"
+                        ]
                     }
                 }
             },
@@ -910,16 +1246,22 @@
                 "type": "str",
                 "value": "background",
                 "ui": {
-                    "label": {"en-US": "Action 2 Activation Mode"},
+                    "label": {
+                        "en-US": "Action 2 Activation Mode"
+                    },
                     "type": "select",
                     "opts": {
                         "opts": [
                             {
-                                "l": {"en-US": "Background"},
+                                "l": {
+                                    "en-US": "Background"
+                                },
                                 "v": "background"
                             },
                             {
-                                "l": {"en-US": "Foreground"},
+                                "l": {
+                                    "en-US": "Foreground"
+                                },
                                 "v": "foreground"
                             }
                         ]
@@ -931,7 +1273,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Action 2 App Authentication Required?"},
+                    "label": {
+                        "en-US": "Action 2 App Authentication Required?"
+                    },
                     "type": "checkbox"
                 }
             },
@@ -940,7 +1284,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Action 2 Destructive?"},
+                    "label": {
+                        "en-US": "Action 2 Destructive?"
+                    },
                     "type": "checkbox"
                 }
             },
@@ -949,16 +1295,22 @@
                 "type": "str",
                 "value": "default",
                 "ui": {
-                    "label": {"en-US": "Action 2 Behavior"},
+                    "label": {
+                        "en-US": "Action 2 Behavior"
+                    },
                     "type": "select",
                     "opts": {
                         "opts": [
                             {
-                                "l": {"en-US": "Default"},
+                                "l": {
+                                    "en-US": "Default"
+                                },
                                 "v": "default"
                             },
                             {
-                                "l": {"en-US": "Text Input"},
+                                "l": {
+                                    "en-US": "Text Input"
+                                },
                                 "v": "textInput"
                             }
                         ]
@@ -970,7 +1322,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 2 Text Input Button Title (Required if behavior is Text Input)"},
+                    "label": {
+                        "en-US": "Action 2 Text Input Button Title (Required if behavior is Text Input)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -985,7 +1339,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 2 Text Input Placeholder (Optional - only if behavior is Text Input)"},
+                    "label": {
+                        "en-US": "Action 2 Text Input Placeholder (Optional - only if behavior is Text Input)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1000,7 +1356,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 2 Icon (Optional)"},
+                    "label": {
+                        "en-US": "Action 2 Icon (Optional)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1015,10 +1373,14 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 3 Title"},
+                    "label": {
+                        "en-US": "Action 3 Title"
+                    },
                     "type": "input",
                     "opts": {
-                        "types": ["str"]
+                        "types": [
+                            "str"
+                        ]
                     }
                 }
             },
@@ -1027,10 +1389,14 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 3 URL (optional)"},
+                    "label": {
+                        "en-US": "Action 3 URL (optional)"
+                    },
                     "type": "input",
                     "opts": {
-                        "types": ["str"]
+                        "types": [
+                            "str"
+                        ]
                     }
                 }
             },
@@ -1039,16 +1405,22 @@
                 "type": "str",
                 "value": "background",
                 "ui": {
-                    "label": {"en-US": "Action 3 Activation Mode"},
+                    "label": {
+                        "en-US": "Action 3 Activation Mode"
+                    },
                     "type": "select",
                     "opts": {
                         "opts": [
                             {
-                                "l": {"en-US": "Background"},
+                                "l": {
+                                    "en-US": "Background"
+                                },
                                 "v": "background"
                             },
                             {
-                                "l": {"en-US": "Foreground"},
+                                "l": {
+                                    "en-US": "Foreground"
+                                },
                                 "v": "foreground"
                             }
                         ]
@@ -1060,7 +1432,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Action 3 App Authentication Required?"},
+                    "label": {
+                        "en-US": "Action 3 App Authentication Required?"
+                    },
                     "type": "checkbox"
                 }
             },
@@ -1069,7 +1443,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Action 3 Destructive?"},
+                    "label": {
+                        "en-US": "Action 3 Destructive?"
+                    },
                     "type": "checkbox"
                 }
             },
@@ -1078,16 +1454,22 @@
                 "type": "str",
                 "value": "default",
                 "ui": {
-                    "label": {"en-US": "Action 3 Behavior"},
+                    "label": {
+                        "en-US": "Action 3 Behavior"
+                    },
                     "type": "select",
                     "opts": {
                         "opts": [
                             {
-                                "l": {"en-US": "Default"},
+                                "l": {
+                                    "en-US": "Default"
+                                },
                                 "v": "default"
                             },
                             {
-                                "l": {"en-US": "Text Input"},
+                                "l": {
+                                    "en-US": "Text Input"
+                                },
                                 "v": "textInput"
                             }
                         ]
@@ -1099,7 +1481,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 3 Text Input Button Title (Required if behavior is Text Input)"},
+                    "label": {
+                        "en-US": "Action 3 Text Input Button Title (Required if behavior is Text Input)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1114,7 +1498,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 3 Text Input Placeholder (Optional - only if behavior is Text Input)"},
+                    "label": {
+                        "en-US": "Action 3 Text Input Placeholder (Optional - only if behavior is Text Input)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1129,7 +1515,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 3 Icon (Optional)"},
+                    "label": {
+                        "en-US": "Action 3 Icon (Optional)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1144,10 +1532,14 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 4 Title"},
+                    "label": {
+                        "en-US": "Action 4 Title"
+                    },
                     "type": "input",
                     "opts": {
-                        "types": ["str"]
+                        "types": [
+                            "str"
+                        ]
                     }
                 }
             },
@@ -1156,10 +1548,14 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 4 URL (optional)"},
+                    "label": {
+                        "en-US": "Action 4 URL (optional)"
+                    },
                     "type": "input",
                     "opts": {
-                        "types": ["str"]
+                        "types": [
+                            "str"
+                        ]
                     }
                 }
             },
@@ -1168,16 +1564,22 @@
                 "type": "str",
                 "value": "background",
                 "ui": {
-                    "label": {"en-US": "Action 4 Activation Mode"},
+                    "label": {
+                        "en-US": "Action 4 Activation Mode"
+                    },
                     "type": "select",
                     "opts": {
                         "opts": [
                             {
-                                "l": {"en-US": "Background"},
+                                "l": {
+                                    "en-US": "Background"
+                                },
                                 "v": "background"
                             },
                             {
-                                "l": {"en-US": "Foreground"},
+                                "l": {
+                                    "en-US": "Foreground"
+                                },
                                 "v": "foreground"
                             }
                         ]
@@ -1189,7 +1591,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Action 4 App Authentication Required?"},
+                    "label": {
+                        "en-US": "Action 4 App Authentication Required?"
+                    },
                     "type": "checkbox"
                 }
             },
@@ -1198,7 +1602,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Action 4 Destructive?"},
+                    "label": {
+                        "en-US": "Action 4 Destructive?"
+                    },
                     "type": "checkbox"
                 }
             },
@@ -1207,16 +1613,22 @@
                 "type": "str",
                 "value": "default",
                 "ui": {
-                    "label": {"en-US": "Action 4 Behavior"},
+                    "label": {
+                        "en-US": "Action 4 Behavior"
+                    },
                     "type": "select",
                     "opts": {
                         "opts": [
                             {
-                                "l": {"en-US": "Default"},
+                                "l": {
+                                    "en-US": "Default"
+                                },
                                 "v": "default"
                             },
                             {
-                                "l": {"en-US": "Text Input"},
+                                "l": {
+                                    "en-US": "Text Input"
+                                },
                                 "v": "textInput"
                             }
                         ]
@@ -1228,7 +1640,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 4 Text Input Button Title (Required if behavior is Text Input)"},
+                    "label": {
+                        "en-US": "Action 4 Text Input Button Title (Required if behavior is Text Input)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1243,7 +1657,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 4 Text Input Placeholder (Optional - only if behavior is Text Input)"},
+                    "label": {
+                        "en-US": "Action 4 Text Input Placeholder (Optional - only if behavior is Text Input)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1258,7 +1674,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Action 4 Icon (Optional)"},
+                    "label": {
+                        "en-US": "Action 4 Icon (Optional)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1273,7 +1691,9 @@
                 "type": "num",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Latitude for Pin 1"},
+                    "label": {
+                        "en-US": "Latitude for Pin 1"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1288,7 +1708,9 @@
                 "type": "num",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Longitude for Pin 1"},
+                    "label": {
+                        "en-US": "Longitude for Pin 1"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1303,7 +1725,9 @@
                 "type": "num",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Latitude for Pin 2"},
+                    "label": {
+                        "en-US": "Latitude for Pin 2"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1318,7 +1742,9 @@
                 "type": "num",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Longitude for Pin 2"},
+                    "label": {
+                        "en-US": "Longitude for Pin 2"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1333,7 +1759,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Show a line between points?"},
+                    "label": {
+                        "en-US": "Show a line between points?"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1348,7 +1776,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Show a compass on the map?"},
+                    "label": {
+                        "en-US": "Show a compass on the map?"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1363,7 +1793,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Show points of interest?"},
+                    "label": {
+                        "en-US": "Show points of interest?"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1378,7 +1810,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Show scale information on the map?"},
+                    "label": {
+                        "en-US": "Show scale information on the map?"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1393,7 +1827,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Show Traffic?"},
+                    "label": {
+                        "en-US": "Show Traffic?"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1408,7 +1844,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Show User Location?"},
+                    "label": {
+                        "en-US": "Show User Location?"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1423,7 +1861,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Camera Entity"},
+                    "label": {
+                        "en-US": "Camera Entity"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1438,7 +1878,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Image Path (10MB limit)"},
+                    "label": {
+                        "en-US": "Image Path (10MB limit)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1453,7 +1895,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Video Path (50MB limit)"},
+                    "label": {
+                        "en-US": "Video Path (50MB limit)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1468,7 +1912,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Audio Path (5MB limit)"},
+                    "label": {
+                        "en-US": "Audio Path (5MB limit)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1483,7 +1929,9 @@
                 "type": "str",
                 "value": "",
                 "ui": {
-                    "label": {"en-US": "Content URL (overrides image/video/audio)"},
+                    "label": {
+                        "en-US": "Content URL (overrides image/video/audio)"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1498,7 +1946,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Load Media in Notification Lazily?"},
+                    "label": {
+                        "en-US": "Load Media in Notification Lazily?"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1513,7 +1963,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Hide thumbnail?"},
+                    "label": {
+                        "en-US": "Hide thumbnail?"
+                    },
                     "type": "input",
                     "opts": {
                         "types": [
@@ -1528,7 +1980,9 @@
                 "type": "bool",
                 "value": "false",
                 "ui": {
-                    "label": {"en-US": "Debug Mode?"},
+                    "label": {
+                        "en-US": "Debug Mode?"
+                    },
                     "type": "checkbox"
                 }
             }
@@ -1558,8 +2012,9 @@
         "type": "function",
         "z": "6dc0247c.d7210c",
         "name": "create service call",
-        "func": "msg._originalPayload = msg.payload;\nlet flow_msg_variables = {\n  tag: '',\n  service: '',\n  message: msg,\n  date_created: Date.now()\n}\n\nvar xTitle = \"\";\nvar xSubtitle = \"\";\nvar xMessage = \"\";\nvar xServices = \"\";\nvar xTag = \"\";\nvar xUrl = \"\";\nvar xCameraEntity = \"\";\nvar xInterruptionLevel = \"\";\n\n// overrides\nif (typeof msg.notificationOverride !== 'undefined' && msg.notificationOverride !== null) {\n    if (typeof msg.notificationOverride.title !== 'undefined' && msg.notificationOverride.title !=='' && msg.notificationOverride.title !== null){\n        xTitle = msg.notificationOverride.title;\n    } else {\n        xTitle = env.get('title');\n    }\n    if (typeof msg.notificationOverride.subtitle !== 'undefined' && msg.notificationOverride.subtitle !==''  && msg.notificationOverride.subtitle !== null){\n        xSubtitle = msg.notificationOverride.subtitle;\n    } else {\n        xSubtitle = env.get('subtitle');\n    }\n    if (typeof msg.notificationOverride.message !== 'undefined' && msg.notificationOverride.message !=='' &&  msg.notificationOverride.message !== null){\n        xMessage = msg.notificationOverride.message;\n    } else {\n        xMessage = env.get('message');\n    }\n    if (typeof msg.notificationOverride.url !== 'undefined' && msg.notificationOverride.url !=='' &&  msg.notificationOverride.url !== null){\n        xUrl = msg.notificationOverride.url;\n    } else {\n        xUrl = env.get('notificationUrl');\n    }\n    if (typeof msg.notificationOverride.services !== 'undefined' && msg.notificationOverride.services !=='' && msg.notificationOverride.services !== null){\n        xServices = msg.notificationOverride.services;\n    } else {\n        xServices = env.get('service');\n    }\n    if (typeof msg.notificationOverride.cameraEntity !== 'undefined' && msg.notificationOverride.cameraEntity !=='' && msg.notificationOverride.cameraEntity !== null){\n        xCameraEntity = msg.notificationOverride.cameraEntity;\n    } else {\n        xCameraEntity = env.get('cameraEntity');\n    }\n    \n    if (typeof msg.notificationOverride.interruptionLevel !== 'undefined' && msg.notificationOverride.interruptionLevel !=='' && msg.notificationOverride.interruptionLevel !== null){\n        xInterruptionLevel = msg.notificationOverride.interruptionLevel;\n    } else {\n        xInterruptionLevel = env.get('interruptionLevel');\n    }\n    \n    flow_msg_variables.service=xServices;\n    if (typeof msg.notificationOverride.tag !== 'undefined' && msg.notificationOverride.tag !=='' && msg.notificationOverride.tag !== null){\n        xTag = msg.notificationOverride.tag.replace(/[^\\w\\s]/gi, '').replace(/\\s+/g,'_').toUpperCase();\n    } else {\n        if (env.get('tag') !== '') {\n            xTag = `${env.get('tag').replace(/[^\\w\\s]/gi, '').replace(/\\s+/g,'_').toUpperCase()}`;\n        } else {\n            // need to still set this to something in case clear_notification is sent.\n            xTag = `${env.get('title').replace(/[^\\w\\s]/gi, '').replace(/\\s+/g,'_').toUpperCase()}_${flow.get('random')}`;\n        } \n    }\n//support multiple tags per flow\n  flow_msg_variables.tag=xTag;\n} else {\n    // If no override is sent in...\n    if (env.get('tag') !== '') {\n        xTag = `${env.get('tag').replace(/[^\\w\\s]/gi, '').replace(/\\s+/g,'_').toUpperCase()}`;\n    } else {\n        // need to still set this to something in case clear_notification is sent.\n        xTag = `${env.get('title').replace(/[^\\w\\s]/gi, '').replace(/\\s+/g,'_').toUpperCase()}_${flow.get('random')}`;\n    } \n    //support multiple tags per flow\n    //  flow.set('tag',xTag);\n    flow_msg_variables.tag=xTag;\n    \n    xServices = env.get('service');\n    flow_msg_variables.service=xServices;\n\n    xTitle = env.get('title');\n    xSubtitle = env.get('subtitle');\n    xMessage = env.get('message');\n    xUrl = env.get('notificationUrl');\n    xCameraEntity = env.get('cameraEntity');\n    xInterruptionLevel = env.get('interruptionLevel');\n}\n\nlet all_flow_messages= flow.get('flow_messages');\nif (!all_flow_messages){\n  all_flow_messages=[];\n}\nlet new_flow_messages=[];\nfor(var i=0;i<all_flow_messages.length;i++){//copy (and reset) the messages array\n  if ((all_flow_messages[i].tag==flow_msg_variables.tag)&&(all_flow_messages[i].service==flow_msg_variables.service)){\n    continue;//don't copy this message\n  }else{\n    if (Date.now()-all_flow_messages[i].date_created<86400000){//only copy messages less than 24h old\n      new_flow_messages.push(all_flow_messages[i]);\n    }\n  }\n}\nnew_flow_messages.push(flow_msg_variables);\nflow.set('flow_messages',new_flow_messages);\n\nconst services = xServices;\nif(!services) {\n    node.status({\n        text: 'no services defined',\n        shape: 'ring',\n        fill: 'red'\n    });\n    return;    \n} else if (services == \"NOONE\"){\n    node.status({\n        text: 'No one to send to',\n        shape: 'ring',\n        fill: 'yellow'\n    });\n    return;\n}\n\n\n\n// create actions\nconst actions = [];\n[1,2,3,4].forEach(i => {\n    const name = `action${i}`\n    if (env.get(`${name}Title`) !== ''){\n        const action = env.get(`${name}Title`).replace(/[^\\w\\s]/gi, '').replace(/\\s+/g,'_').toUpperCase();\n        const title = env.get(`${name}Title`);\n        const activationMode = env.get(`${name}ActivationMode`);  \n        \n        const uri = env.get(`${name}Uri`);\n        const textInputButtonTitle = env.get(`${name}TextInputButtonTitle`);\n        const textInputPlaceholder = env.get(`${name}TextInputPlaceHolder`);\n        const authenticationRequired = env.get(`${name}AuthenticationRequired`);\n        const destructive = env.get(`${name}Destructive`);\n        const behavior = env.get(`${name}Behavior`);\n        const icon = env.get(`${name}Icon`);\n        \n        const actionObject = {};\n        actionObject.action = action;\n        if (msg.notificationOverride != null && msg.notificationOverride[`${name}Title`] != null && msg.notificationOverride[`${name}Title`] != '') {\n            actionObject.title = msg.notificationOverride[`${name}Title`];\n        } else {\n            actionObject.title = title;\n        }\n        actionObject.activationMode = activationMode;\n        \n        if (uri != \"\") actionObject.uri = uri;\n        if (textInputButtonTitle != \"\") actionObject.textInputButtonTitle = textInputButtonTitle;\n        if (textInputPlaceholder != \"\") actionObject.textInputPlaceholder = textInputPlaceholder;\n        if (authenticationRequired != \"\") actionObject.authenticationRequired = authenticationRequired;\n        if (destructive != \"\") actionObject.destructive = destructive;\n        if (behavior != \"\") actionObject.behavior = behavior;\n        if (icon != \"\") actionObject.icon = icon;\n        \n        actions.push(actionObject);\n    }\n});\n\n// create msg object\n\nmsg.payload = {\n        domain: 'notify',\n        data: {\n            title: xTitle,\n            message: xMessage,\n            data: {\n                push: {},\n                tag: xTag\n            }\n        }\n    };\n\nif (actions.length > 0) {\n    msg.payload.data.data.action_data = {tag: xTag};\n    msg.payload.data.data.actions = actions;\n    \n}\n\n\n// notification url\nif (xUrl !== \"\") {\n    msg.payload.data.data.url = {};\n    msg.payload.data.data.url = xUrl;\n}\n\n// subtitle\nif (xSubtitle !== '') {\n    msg.payload.data.data.subtitle = xSubtitle;\n}\n\n// sound information\nmsg.payload.data.data.push.sound = {};\nif (env.get('customSound').length > 0){\n    msg.payload.data.data.push.sound.name = env.get('customSound');\n} else if (env.get('customSoundPreInstalled').length > 0) {\n  if(env.get('customSoundPreInstalled')=='none'){\n    msg.payload.data.data.push.sound = 'none';\n  }else{\n    msg.payload.data.data.push.sound.name = env.get('customSoundPreInstalled');\n  }\n} else {\n    msg.payload.data.data.push.sound.name = 'default';\n}\n\nif (env.get('isCriticalNotification')) {\n    msg.payload.data.data.push.sound.critical = 1;\n    msg.payload.data.data.push.sound.volume = 1.0;\n    msg.payload.data.data.push[\"interruption-level\"] = 'critical';\n} else {\n    // interruption level\n    if (xInterruptionLevel !== '') {\n        msg.payload.data.data.push[\"interruption-level\"] = xInterruptionLevel;\n        if (xInterruptionLevel == 'critical'){\n            msg.payload.data.data.push.sound.critical = 1;\n            msg.payload.data.data.push.sound.volume = 1.0;\n        }\n    }\n}\n\n// group thread id\nif (env.get('group') !== '') {\n    msg.payload.data.data.group = env.get('group');\n}\n\n// Map Information\nif (env.get('latitudeFirst') != '0' && env.get('longitudeFirst') != '0'){\n    msg.payload.data.data.action_data.latitude = env.get('latitudeFirst');\n    msg.payload.data.data.action_data.longitude = env.get('longitudeFirst');\n    if (env.get('latitudeSecond') != '0' && env.get('longitudeSecond') != '0'){\n        msg.payload.data.data.action_data.second_latitude = env.get('latitudeSecond');\n        msg.payload.data.data.action_data.second_longitude = env.get('longitudeSecond');\n        // add in all the extras, which default to false.\n        msg.payload.data.data.action_data.shows_line_between_points = env.get('showLineBetweenPoints');\n        msg.payload.data.data.action_data.shows_compass = env.get('showCompass');\n        msg.payload.data.data.action_data.shows_points_of_interest = env.get('showPointsOfInterest');\n        msg.payload.data.data.action_data.shows_scale = env.get('showScale');\n        msg.payload.data.data.action_data.shows_traffic = env.get('showTraffic');\n        msg.payload.data.data.action_data.shows_user_location = env.get('showUserLocation');\n    }\n} \n// camera information\nif (xCameraEntity !== '') {\n    msg.payload.data.data.entity_id = xCameraEntity;\n}\n// media information\nif (env.get('contentUrl') !== '') {\n\n} else {\n    if (env.get('imagePath') !== '') {\n        msg.payload.data.data.image = env.get('imagePath');\n    }\n    if (env.get('videoPath') !== '') {\n        msg.payload.data.data.video = env.get('videoPath');\n    }\n    if (env.get('audioPath') !== '') {\n        msg.payload.data.data.audio = env.get('audioPath');\n    }\n}\nif (env.get('contentUrl') !== '' || env.get('imagePath') !== '' || env.get('videoPath') !== '' || env.get('audioPath') !== '') {\n    if (env.get('lazyLoading')) {\n        msg.payload.data.data.lazy = env.get('lazyLoading');\n    }\n    if (env.get('hideThumbnail')) {\n        msg.payload.data.data.attachment = {};\n        msg.payload.data.data.attachment['hide-thumbnail'] = env.get('hideThumbnail');\n    }\n}\n\nservices.trim().split(/,\\s*/).forEach(service => {\n    if(!service) return;\n    msg.payload.service = service;\n    node.send(msg);\n});\n\nnode.done();",
+        "func": "msg._originalPayload = msg.payload;\nlet flow_msg_variables = {\n  tag: '',\n  service: '',\n  message: msg,\n  date_created: Date.now()\n}\n\nvar xTitle = \"\";\nvar xSubtitle = \"\";\nvar xMessage = \"\";\nvar xServices = \"\";\nvar xTag = \"\";\nvar xUrl = \"\";\nvar xCameraEntity = \"\";\nvar xInterruptionLevel = \"\";\nvar xAudioPath = \"\";\n\n// overrides\nif (typeof msg.notificationOverride !== 'undefined' && msg.notificationOverride !== null) {\n    if (typeof msg.notificationOverride.title !== 'undefined' && msg.notificationOverride.title !=='' && msg.notificationOverride.title !== null){\n        xTitle = msg.notificationOverride.title;\n    } else {\n        xTitle = env.get('title');\n    }\n    if (typeof msg.notificationOverride.subtitle !== 'undefined' && msg.notificationOverride.subtitle !==''  && msg.notificationOverride.subtitle !== null){\n        xSubtitle = msg.notificationOverride.subtitle;\n    } else {\n        xSubtitle = env.get('subtitle');\n    }\n    if (typeof msg.notificationOverride.message !== 'undefined' && msg.notificationOverride.message !=='' &&  msg.notificationOverride.message !== null){\n        xMessage = msg.notificationOverride.message;\n    } else {\n        xMessage = env.get('message');\n    }\n    if (typeof msg.notificationOverride.url !== 'undefined' && msg.notificationOverride.url !=='' &&  msg.notificationOverride.url !== null){\n        xUrl = msg.notificationOverride.url;\n    } else {\n        xUrl = env.get('notificationUrl');\n    }\n    if (typeof msg.notificationOverride.services !== 'undefined' && msg.notificationOverride.services !=='' && msg.notificationOverride.services !== null){\n        xServices = msg.notificationOverride.services;\n    } else {\n        xServices = env.get('service');\n    }\n    if (typeof msg.notificationOverride.cameraEntity !== 'undefined' && msg.notificationOverride.cameraEntity !=='' && msg.notificationOverride.cameraEntity !== null){\n        xCameraEntity = msg.notificationOverride.cameraEntity;\n    } else {\n        xCameraEntity = env.get('cameraEntity');\n    }\n\n    \n    if (typeof msg.notificationOverride.audioPath !== 'undefined' && msg.notificationOverride.audioPath !== '' && msg.notificationOverride.audioPath !== null) {\n        xAudioPath = msg.notificationOverride.audioPath;\n    } else {\n        xAudioPath = env.get('audioPath');\n    }\n\n\n    if (typeof msg.notificationOverride.interruptionLevel !== 'undefined' && msg.notificationOverride.interruptionLevel !=='' && msg.notificationOverride.interruptionLevel !== null){\n        xInterruptionLevel = msg.notificationOverride.interruptionLevel;\n    } else {\n        xInterruptionLevel = env.get('interruptionLevel');\n    }\n    \n    flow_msg_variables.service=xServices;\n    if (typeof msg.notificationOverride.tag !== 'undefined' && msg.notificationOverride.tag !=='' && msg.notificationOverride.tag !== null){\n        xTag = msg.notificationOverride.tag.replace(/[^\\w\\s]/gi, '').replace(/\\s+/g,'_').toUpperCase();\n    } else {\n        if (env.get('tag') !== '') {\n            xTag = `${env.get('tag').replace(/[^\\w\\s]/gi, '').replace(/\\s+/g,'_').toUpperCase()}`;\n        } else {\n            // need to still set this to something in case clear_notification is sent.\n            xTag = `${env.get('title').replace(/[^\\w\\s]/gi, '').replace(/\\s+/g,'_').toUpperCase()}_${flow.get('random')}`;\n        } \n    }\n//support multiple tags per flow\n  flow_msg_variables.tag=xTag;\n} else {\n    // If no override is sent in...\n    if (env.get('tag') !== '') {\n        xTag = `${env.get('tag').replace(/[^\\w\\s]/gi, '').replace(/\\s+/g,'_').toUpperCase()}`;\n    } else {\n        // need to still set this to something in case clear_notification is sent.\n        xTag = `${env.get('title').replace(/[^\\w\\s]/gi, '').replace(/\\s+/g,'_').toUpperCase()}_${flow.get('random')}`;\n    } \n    //support multiple tags per flow\n    //  flow.set('tag',xTag);\n    flow_msg_variables.tag=xTag;\n    \n    xServices = env.get('service');\n    flow_msg_variables.service=xServices;\n\n    xTitle = env.get('title');\n    xSubtitle = env.get('subtitle');\n    xMessage = env.get('message');\n    xUrl = env.get('notificationUrl');\n    xCameraEntity = env.get('cameraEntity');\n    xInterruptionLevel = env.get('interruptionLevel');\n}\n\nlet all_flow_messages= flow.get('flow_messages');\nif (!all_flow_messages){\n  all_flow_messages=[];\n}\nlet new_flow_messages=[];\nfor(var i=0;i<all_flow_messages.length;i++){//copy (and reset) the messages array\n  if ((all_flow_messages[i].tag==flow_msg_variables.tag)&&(all_flow_messages[i].service==flow_msg_variables.service)){\n    continue;//don't copy this message\n  }else{\n    if (Date.now()-all_flow_messages[i].date_created<86400000){//only copy messages less than 24h old\n      new_flow_messages.push(all_flow_messages[i]);\n    }\n  }\n}\nnew_flow_messages.push(flow_msg_variables);\nflow.set('flow_messages',new_flow_messages);\n\nconst services = xServices;\nif(!services) {\n    node.status({\n        text: 'no services defined',\n        shape: 'ring',\n        fill: 'red'\n    });\n    return;    \n} else if (services == \"NOONE\"){\n    node.status({\n        text: 'No one to send to',\n        shape: 'ring',\n        fill: 'yellow'\n    });\n    return;\n}\n\n\n\n// create actions\nconst actions = [];\n[1,2,3,4].forEach(i => {\n    const name = `action${i}`\n    if (env.get(`${name}Title`) !== ''){\n        const action = env.get(`${name}Title`).replace(/[^\\w\\s]/gi, '').replace(/\\s+/g,'_').toUpperCase();\n        const title = env.get(`${name}Title`);\n        const activationMode = env.get(`${name}ActivationMode`);  \n        \n        const uri = env.get(`${name}Uri`);\n        const textInputButtonTitle = env.get(`${name}TextInputButtonTitle`);\n        const textInputPlaceholder = env.get(`${name}TextInputPlaceHolder`);\n        const authenticationRequired = env.get(`${name}AuthenticationRequired`);\n        const destructive = env.get(`${name}Destructive`);\n        const behavior = env.get(`${name}Behavior`);\n        const icon = env.get(`${name}Icon`);\n        \n        const actionObject = {};\n        actionObject.action = action;\n        if (msg.notificationOverride != null && msg.notificationOverride[`${name}Title`] != null && msg.notificationOverride[`${name}Title`] != '') {\n            actionObject.title = msg.notificationOverride[`${name}Title`];\n        } else {\n            actionObject.title = title;\n        }\n        actionObject.activationMode = activationMode;\n        \n        if (uri != \"\") actionObject.uri = uri;\n        if (textInputButtonTitle != \"\") actionObject.textInputButtonTitle = textInputButtonTitle;\n        if (textInputPlaceholder != \"\") actionObject.textInputPlaceholder = textInputPlaceholder;\n        if (authenticationRequired != \"\") actionObject.authenticationRequired = authenticationRequired;\n        if (destructive != \"\") actionObject.destructive = destructive;\n        if (behavior != \"\") actionObject.behavior = behavior;\n        if (icon != \"\") actionObject.icon = icon;\n        \n        actions.push(actionObject);\n    }\n});\n\n// create msg object\n\nmsg.payload = {\n        domain: 'notify',\n        data: {\n            title: xTitle,\n            message: xMessage,\n            data: {\n                push: {},\n                tag: xTag\n            }\n        }\n    };\n\nif (actions.length > 0) {\n    msg.payload.data.data.action_data = {tag: xTag};\n    msg.payload.data.data.actions = actions;\n    \n}\n\n\n// notification url\nif (xUrl !== \"\") {\n    msg.payload.data.data.url = {};\n    msg.payload.data.data.url = xUrl;\n}\n\n// subtitle\nif (xSubtitle !== '') {\n    msg.payload.data.data.subtitle = xSubtitle;\n}\n\n// sound information\nmsg.payload.data.data.push.sound = {};\nif (env.get('customSound').length > 0){\n    msg.payload.data.data.push.sound.name = env.get('customSound');\n} else if (env.get('customSoundPreInstalled').length > 0) {\n  if(env.get('customSoundPreInstalled')=='none'){\n    msg.payload.data.data.push.sound = 'none';\n  }else{\n    msg.payload.data.data.push.sound.name = env.get('customSoundPreInstalled');\n  }\n} else {\n    msg.payload.data.data.push.sound.name = 'default';\n}\n\nif (env.get('isCriticalNotification')) {\n    msg.payload.data.data.push.sound.critical = 1;\n    msg.payload.data.data.push.sound.volume = 1.0;\n    msg.payload.data.data.push[\"interruption-level\"] = 'critical';\n} else {\n    // interruption level\n    if (xInterruptionLevel !== '') {\n        msg.payload.data.data.push[\"interruption-level\"] = xInterruptionLevel;\n        if (xInterruptionLevel == 'critical'){\n            msg.payload.data.data.push.sound.critical = 1;\n            msg.payload.data.data.push.sound.volume = 1.0;\n        }\n    }\n}\n\n// group thread id\nif (env.get('group') !== '') {\n    msg.payload.data.data.group = env.get('group');\n}\n\n// Map Information\nif (env.get('latitudeFirst') != '0' && env.get('longitudeFirst') != '0'){\n    msg.payload.data.data.action_data.latitude = env.get('latitudeFirst');\n    msg.payload.data.data.action_data.longitude = env.get('longitudeFirst');\n    if (env.get('latitudeSecond') != '0' && env.get('longitudeSecond') != '0'){\n        msg.payload.data.data.action_data.second_latitude = env.get('latitudeSecond');\n        msg.payload.data.data.action_data.second_longitude = env.get('longitudeSecond');\n        // add in all the extras, which default to false.\n        msg.payload.data.data.action_data.shows_line_between_points = env.get('showLineBetweenPoints');\n        msg.payload.data.data.action_data.shows_compass = env.get('showCompass');\n        msg.payload.data.data.action_data.shows_points_of_interest = env.get('showPointsOfInterest');\n        msg.payload.data.data.action_data.shows_scale = env.get('showScale');\n        msg.payload.data.data.action_data.shows_traffic = env.get('showTraffic');\n        msg.payload.data.data.action_data.shows_user_location = env.get('showUserLocation');\n    }\n} \n// camera information\nif (xCameraEntity !== '') {\n    msg.payload.data.data.entity_id = xCameraEntity;\n}\n// media information\nif (env.get('contentUrl') !== '') {\n\n} else {\n    if (env.get('imagePath') !== '') {\n        msg.payload.data.data.image = env.get('imagePath');\n    }\n    if (env.get('videoPath') !== '') {\n        msg.payload.data.data.video = env.get('videoPath');\n    }\n    if (xAudioPath == '') {\n        msg.payload.data.data.audio = env.get('audioPath');\n    } else {\n        msg.payload.data.data.audio = xAudioPath\n    }\n}\nif (env.get('contentUrl') !== '' || env.get('imagePath') !== '' || env.get('videoPath') !== '' || env.get('audioPath') !== '') {\n    if (env.get('lazyLoading')) {\n        msg.payload.data.data.lazy = env.get('lazyLoading');\n    }\n    if (env.get('hideThumbnail')) {\n        msg.payload.data.data.attachment = {};\n        msg.payload.data.data.attachment['hide-thumbnail'] = env.get('hideThumbnail');\n    }\n}\n\nservices.trim().split(/,\\s*/).forEach(service => {\n    if(!service) return;\n    msg.payload.service = service;\n    node.send(msg);\n});\n\nnode.done();",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "flow.set('random',Math.random().toString(36).replace(/[^a-z]+/g, '').slice(0, 5).toUpperCase());",
         "finalize": "",
@@ -1656,7 +2111,7 @@
         "type": "ha-api",
         "z": "6dc0247c.d7210c",
         "name": "get user info",
-        "server": "",
+        "server": "4b528bac.06da64",
         "version": 1,
         "debugenabled": false,
         "protocol": "websocket",
@@ -1676,7 +2131,9 @@
         "x": 950,
         "y": 420,
         "wires": [
-            ["b1e2e20511543565"]
+            [
+                "b1e2e20511543565"
+            ]
         ]
     },
     {
@@ -1687,8 +2144,12 @@
         "property": "userInfo",
         "propertyType": "env",
         "rules": [
-            {"t": "true"},
-            {"t": "else"}
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
         ],
         "checkall": "true",
         "repair": false,
@@ -1696,8 +2157,12 @@
         "x": 800,
         "y": 480,
         "wires": [
-            ["7bc5c379b10a2fbf"],
-            ["b1e2e20511543565"]
+            [
+                "7bc5c379b10a2fbf"
+            ],
+            [
+                "b1e2e20511543565"
+            ]
         ]
     },
     {
@@ -1705,20 +2170,11 @@
         "type": "server-events",
         "z": "6dc0247c.d7210c",
         "name": "ios.notification_action_fired",
-        "server": "",
-        "version": 2,
+        "server": "4b528bac.06da64",
+        "version": 3,
+        "exposeAsEntityConfig": "",
         "eventType": "ios.notification_action_fired",
-        "exposeToHomeAssistant": false,
-        "haConfig": [
-            {
-                "property": "name",
-                "value": ""
-            },
-            {
-                "property": "icon",
-                "value": ""
-            }
-        ],
+        "eventData": "",
         "waitForRunning": false,
         "outputProperties": [
             {
@@ -1743,7 +2199,9 @@
         "x": 164,
         "y": 256,
         "wires": [
-            ["86b12904f73a0329"]
+            [
+                "86b12904f73a0329"
+            ]
         ]
     },
     {
@@ -1751,7 +2209,7 @@
         "type": "api-call-service",
         "z": "6dc0247c.d7210c",
         "name": "Send Notifications",
-        "server": "",
+        "server": "4b528bac.06da64",
         "version": 5,
         "debugenabled": false,
         "domain": "notify",
@@ -1799,8 +2257,12 @@
         "property": "isClearNotificationsOnAction",
         "propertyType": "env",
         "rules": [
-            {"t": "true"},
-            {"t": "false"}
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
         ],
         "checkall": "true",
         "repair": false,
@@ -1812,7 +2274,9 @@
                 "6fdf5748e207aa7e",
                 "227a6ab8de989095"
             ],
-            ["c25a82298fbaad78"]
+            [
+                "c25a82298fbaad78"
+            ]
         ]
     },
     {
@@ -1820,7 +2284,7 @@
         "type": "api-call-service",
         "z": "6dc0247c.d7210c",
         "name": "Clear Notifications",
-        "server": "",
+        "server": "4b528bac.06da64",
         "version": 5,
         "debugenabled": false,
         "domain": "notify",
@@ -1860,7 +2324,9 @@
         "x": 720,
         "y": 420,
         "wires": [
-            ["c25a82298fbaad78"]
+            [
+                "c25a82298fbaad78"
+            ]
         ]
     },
     {
@@ -1876,9 +2342,15 @@
                 "v": "undefined",
                 "vt": "undefined"
             },
-            {"t": "null"},
-            {"t": "false"},
-            {"t": "true"}
+            {
+                "t": "null"
+            },
+            {
+                "t": "false"
+            },
+            {
+                "t": "true"
+            }
         ],
         "checkall": "false",
         "repair": false,
@@ -1886,10 +2358,18 @@
         "x": 210,
         "y": 80,
         "wires": [
-            ["3586791854cfef41"],
-            ["3586791854cfef41"],
-            ["3586791854cfef41"],
-            ["6fdf5748e207aa7e"]
+            [
+                "3586791854cfef41"
+            ],
+            [
+                "3586791854cfef41"
+            ],
+            [
+                "3586791854cfef41"
+            ],
+            [
+                "6fdf5748e207aa7e"
+            ]
         ]
     },
     {
@@ -1912,7 +2392,9 @@
         "x": 990,
         "y": 240,
         "wires": [
-            ["e229e2d8efb85d22"]
+            [
+                "e229e2d8efb85d22"
+            ]
         ]
     },
     {
@@ -1934,7 +2416,9 @@
         "x": 630,
         "y": 80,
         "wires": [
-            ["fcf9f9c27469a607"]
+            [
+                "fcf9f9c27469a607"
+            ]
         ]
     },
     {
@@ -1951,7 +2435,9 @@
         "x": 400,
         "y": 260,
         "wires": [
-            ["a69ed312811b3a6d"],
+            [
+                "a69ed312811b3a6d"
+            ],
             []
         ]
     },
@@ -2031,7 +2517,9 @@
         "property": "debugMode",
         "propertyType": "env",
         "rules": [
-            {"t": "true"}
+            {
+                "t": "true"
+            }
         ],
         "checkall": "true",
         "repair": false,
@@ -2039,7 +2527,9 @@
         "x": 140,
         "y": 140,
         "wires": [
-            ["65d1a4e5a4a92b66"]
+            [
+                "65d1a4e5a4a92b66"
+            ]
         ]
     },
     {
@@ -2050,7 +2540,9 @@
         "property": "debugMode",
         "propertyType": "env",
         "rules": [
-            {"t": "true"}
+            {
+                "t": "true"
+            }
         ],
         "checkall": "true",
         "repair": false,
@@ -2058,7 +2550,9 @@
         "x": 1040,
         "y": 540,
         "wires": [
-            ["63e91a53e0014900"]
+            [
+                "63e91a53e0014900"
+            ]
         ]
     },
     {
@@ -2069,7 +2563,9 @@
         "property": "debugMode",
         "propertyType": "env",
         "rules": [
-            {"t": "true"}
+            {
+                "t": "true"
+            }
         ],
         "checkall": "true",
         "repair": false,
@@ -2077,7 +2573,9 @@
         "x": 980,
         "y": 300,
         "wires": [
-            ["b6444c11b4074de0"]
+            [
+                "b6444c11b4074de0"
+            ]
         ]
     },
     {
@@ -2088,7 +2586,9 @@
         "property": "debugMode",
         "propertyType": "env",
         "rules": [
-            {"t": "true"}
+            {
+                "t": "true"
+            }
         ],
         "checkall": "true",
         "repair": false,
@@ -2096,7 +2596,102 @@
         "x": 620,
         "y": 160,
         "wires": [
-            ["b340e7a2f7b93193"]
+            [
+                "b340e7a2f7b93193"
+            ]
+        ]
+    },
+    {
+        "id": "a388f81a6d8ce8c1",
+        "type": "server",
+        "z": "6dc0247c.d7210c",
+        "name": "Home Assistant",
+        "version": 5,
+        "addon": false,
+        "rejectUnauthorizedCerts": true,
+        "ha_boolean": "y|yes|true|on|home|open",
+        "connectionDelay": true,
+        "cacheJson": true,
+        "heartbeat": false,
+        "heartbeatInterval": "30",
+        "areaSelector": "friendlyName",
+        "deviceSelector": "friendlyName",
+        "entitySelector": "friendlyName",
+        "statusSeparator": ": ",
+        "statusYear": "hidden",
+        "statusMonth": "short",
+        "statusDay": "numeric",
+        "statusHourCycle": "default",
+        "statusTimeFormat": "h:m",
+        "enableGlobalContextStore": false
+    },
+    {
+        "id": "4b528bac.06da64",
+        "type": "server",
+        "name": "Home Assistant",
+        "version": 5,
+        "addon": true,
+        "rejectUnauthorizedCerts": true,
+        "ha_boolean": "y|yes|true|on|home|open",
+        "connectionDelay": true,
+        "cacheJson": true,
+        "heartbeat": false,
+        "heartbeatInterval": 30,
+        "areaSelector": "friendlyName",
+        "deviceSelector": "friendlyName",
+        "entitySelector": "friendlyName",
+        "statusSeparator": "at: ",
+        "statusYear": "hidden",
+        "statusMonth": "short",
+        "statusDay": "numeric",
+        "statusHourCycle": "h23",
+        "statusTimeFormat": "h:m",
+        "enableGlobalContextStore": true
+    },
+    {
+        "id": "fa2f9403b1b31892",
+        "type": "subflow:6dc0247c.d7210c",
+        "z": "9cfa89d7d14ae244",
+        "name": "Notifiy Shed Ventilation",
+        "env": [
+            {
+                "name": "group",
+                "value": "ShedVentilation",
+                "type": "str"
+            },
+            {
+                "name": "service",
+                "value": "notify",
+                "type": "str"
+            },
+            {
+                "name": "title",
+                "value": "TITLE not overwritten",
+                "type": "str"
+            },
+            {
+                "name": "message",
+                "value": "MSG not overwritten",
+                "type": "str"
+            },
+            {
+                "name": "isClearNotificationsOnAction",
+                "type": "bool",
+                "value": "true"
+            },
+            {
+                "name": "lazyLoading",
+                "value": "true",
+                "type": "bool"
+            }
+        ],
+        "x": 1630,
+        "y": 620,
+        "wires": [
+            [],
+            [],
+            [],
+            []
         ]
     }
 ]
